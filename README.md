@@ -41,6 +41,20 @@ This dashboard offers a comprehensive visual analysis of the Australian automoti
    * **Charting:** Utilized various graphical representations such as **bar charts**, **pie charts**, and **scatter plots** for easy data interpretation.
    * **Conditional Formatting:** Applied to enhance **data presentation**, highlighting key figures and **outliers**.
 
+# Limitations
+
+The primary limitation of this dataset is the lack of actual transaction dates, which constrains the ability to analyse temporal sales trends. This dataset restricts the analysis to static comparisons across different dimensions such as state, car brand, and car features at a single point in time.
+
+# Investigative Questions
+
+### a) What are the most popular car brands in each Australian state?
+
+Our analysis revealed Toyota as the predominant brand across all states, a favourite highlighted by its consistent appearance in purple across our visual charts.
+
+![Figure 2](https://github.com/OmarMacPherson/Dashboard-Aus-Car-Market-Trends/assets/170058206/6056a73c-d8c3-487b-b886-816a8f6134e4)
+
+
+
 
 
 
