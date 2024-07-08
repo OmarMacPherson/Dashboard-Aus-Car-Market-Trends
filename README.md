@@ -155,7 +155,7 @@ This distribution suggests a concentrated market potential in these regions, par
 
 ![Data Analyst Professional](https://github.com/OmarMacPherson/Dashboard-Aus-Car-Market-Trends/blob/main/Figure%2011.png)
 
-### Future Work in this Project
+# Future Work in this Project
 
 The absence of actual transaction dates in our dataset limits our ability to analyze temporal trends, restricting our insights to static data comparisons. Future analyses could benefit from incorporating time-series data to better understand sales dynamics over time.
 
@@ -165,11 +165,31 @@ The insights derived from this dashboard are crucial for various stakeholders wi
 
 To explore the dashboard interactively, please [CLICK HERE DASHBOARD INTERACTIVE](https://1drv.ms/x/s!Ap12VT-6xXpnlCKODRskYKsc2zjO?e=gy2Uhy).
 
+For any inquiries or further discussions on this project, please feel free to connect via [LinkedIn](www.linkedin.com/in/omaralan). or send an [E-mail](omar.macpherson@outlook.com).
+
+> [!IMPORTANT]
+> This documentation serves not only as a thorough analysis but also as a demonstration of sophisticated data handling and visualization techniques, underscoring the analytical prowess and technical acumen necessary for advanced data analysis in the automotive sector in Australia.
+
+# Author
+
+This Dashboard has been designed and done by **Omar Mac Pherson**. 
+
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/OmarMacPherson)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/omaralan/)  
 
 
+# Credits
 
+### Format & Style
 
+    * Github Docs (https://docs.github.com/)
+    * Dev (https://dev.to/github)
+    * Free Code Camp (https://www.freecodecamp.org/)
 
+### Other
+
+    * Icons (https://github.com/anuraghazra/github-readme-stats)
+    * Icons (https://www.flaticon.com/free-icons/github)
+    * Design Responsive (https://arturssmirnovs.github.io/)
 
 
 
