@@ -1,4 +1,4 @@
-![image](https://github.com/OmarMacPherson/Dashboard-Aus-Car-Market-Trends/assets/170058206/5f26e657-c767-424e-9da9-4d176a6f0465)# Dashboard: Australia Car Market Trends
+# Dashboard: Australia Car Market Trends
 
 ![Data Analyst Professional](https://github.com/OmarMacPherson/Dashboard-Aus-Car-Market-Trends/blob/main/Figure%201.png)
 
