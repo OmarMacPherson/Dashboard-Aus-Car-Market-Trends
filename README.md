@@ -41,6 +41,66 @@ This dashboard offers a comprehensive visual analysis of the Australian automoti
    * **Charting:** Utilized various graphical representations such as **bar charts**, **pie charts**, and **scatter plots** for easy data interpretation.
    * **Conditional Formatting:** Applied to enhance **data presentation**, highlighting key figures and **outliers**.
 
+# Formulas Used in this Project:
+
+Data Cleaning in Column "Used or New"
+
+```ruby
+=IF(OR(F2="DEMO", F2="nan"), "USED", F2)
+```
+
+Data Cleaning in Column "Transmision"
+
+```ruby
+=IF(OR(H2="-", H2=""),"Unknown",H2)
+```
+
+Data Handling in Column "Cylinders"
+
+```ruby
+=IF(J2="-", "", LEFT(J2, FIND(" ", J2) - 1))
+```
+
+Data Handling in Column "Liters"
+
+```ruby
+=IF(J2="-", "", TRIM(MID(J2, FIND(" ", J2, FIND(" ", J2) + 1) + 1, FIND("L", J2) - FIND(" ", J2, FIND(" ", J2) + 1) - 1)))
+```
+Data Cleaning in Column "Fuel Type"
+
+```ruby
+=IF(OR(N2="", N2="-"),"Unknown",N2)
+```
+
+Data Cleaining in Column "Kilometres"
+
+```ruby
+=IF(Q2="-", "Unknown", Q2)
+```
+
+Data Handling in Column "State"
+
+```ruby
+=IF(T2="","Unknown",TRIM(RIGHT(T2, 3)))
+```
+Data Cleaning in Column "Body Type"
+
+```ruby
+=IF(X2="","Unknown",X2)
+```
+
+Data Handling in Column "Doors"
+
+```ruby
+=IF(Z2="", "", LEFT(Z2, LEN(Z2) - 6))
+```
+
+Data Handling in Column "Seats"
+
+```ruby
+=IF(AB2="","",LEFT(AB2,LEN(AB2)-5))
+```
+
 # Limitations
 
 The primary limitation of this dataset is the lack of actual transaction dates, which constrains the ability to analyse temporal sales trends. This dataset restricts the analysis to static comparisons across different dimensions such as state, car brand, and car features at a single point in time.
